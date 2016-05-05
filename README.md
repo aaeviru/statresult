@@ -26,5 +26,5 @@ fqterm.txt:
 ---------------------------------------------------
 **In Classinfo**  
 matrix.txt:wordslist_dsw.txt used  
-matrix.npy: trans from matrix.txt
-/* // /*.dsw.dat:stopword4.txt wordslist_dsw.txt used
+matrix.npy: trans from matrix.txt  
+\*/\*.dsw.dat:stopword4.txt wordslist_dsw.txt used
