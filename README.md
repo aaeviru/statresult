@@ -18,8 +18,8 @@ wordslist_dsw.txt:stopword4.txt used
 NTCIR.txt  
 NTCIR_dsw.txt:stopword4.txt used  
 NTCIR_dsw.txt.bak:stopword3.txt used  
-NTCIR_dsw.data:wordslist_dsw.txt used
-NTCIR.dat:wordslist_dsw.txt.bak used(unusable) 
-fqterm.txt.bak:NTCIR.dat used(min-supp = 10000)
-fqterm.txt:
+NTCIR_dsw.data:wordslist_dsw.txt used  
+NTCIR.dat:wordslist_dsw.txt.bak used(unusable)   
+fqterm.txt.bak:NTCIR.dat used(min-supp = 10000)  
+fqterm.txt:  
 
