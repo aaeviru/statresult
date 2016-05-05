@@ -23,3 +23,8 @@ NTCIR.dat:wordslist_dsw.txt.bak used(unusable)
 fqterm.txt.bak:NTCIR.dat used(min-supp = 10000)  
 fqterm.txt:  
 
+---------------------------------------------------
+**In Classinfo**  
+matrix.txt:wordslist_dsw.txt used  
+matrix.npy: trans from matrix.txt
+/* // /*.dsw.dat:stopword4.txt wordslist_dsw.txt used
