@@ -12,4 +12,14 @@ stopword4.txt:1.txt || else_words.txt || onlyonce.txt || gen2.txt
 wordslist.txt:stopword2.txt used  
 wordslist_dsw.txt.bak:stopword3.txt used  
 wordslist_dsw.txt:stopword4.txt used
+  
+---------------------------------------------------
+\In Data  
+NTCIR.txt  
+NTCIR_dsw.txt:stopword4.txt used  
+NTCIR_dsw.txt.bak:stopword3.txt used  
+NTCIR_dsw.data:wordslist_dsw.txt used
+NTCIR.dat:wordslist_dsw.txt.bak used(unusable) 
+fqterm.txt.bak:NTCIR.dat used(min-supp = 10000)
+fqterm.txt:
 
