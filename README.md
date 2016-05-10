@@ -11,7 +11,8 @@ stopword3.txt:old version
 stopword4.txt:1.txt || else_words.txt || onlyonce.txt || gen2.txt  
 wordslist.txt:stopword2.txt used  
 wordslist_dsw.txt.bak:stopword3.txt used  
-wordslist_dsw.txt:stopword4.txt used
+wordslist_dsw.txt:stopword4.txt used  
+fqterm_20000.txt:NTCIR_dsw.data used(min-supp = 20000)
   
 ---------------------------------------------------
 **In Data**  
