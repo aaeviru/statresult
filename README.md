@@ -12,7 +12,7 @@ stopword4.txt:1.txt || else_words.txt || onlyonce.txt || gen2.txt
 wordslist.txt:stopword2.txt used  
 wordslist_dsw.txt.bak:stopword3.txt used  
 wordslist_dsw.txt:stopword4.txt used  
-fqterm_20000.txt:NTCIR_dsw.data used(min-supp = 20000)
+fqterm_20000.txt:NTCIR_dsw.data used(min-supp = 20000)  
 fqterm_30000.txt:NTCIR_dsw.data used(min-supp = 30000)
 kdresult_20000.txt:fqterm_20000.txt used  
 kdresult_30000.txt:fqterm_30000.txt used  
