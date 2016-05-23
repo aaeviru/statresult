@@ -14,7 +14,11 @@ wordslist_dsw.txt.bak:stopword3.txt used
 wordslist_dsw.txt:stopword4.txt used  
 fqterm_20000.txt:NTCIR_dsw.data used(min-supp = 20000)
 fqterm_30000.txt:NTCIR_dsw.data used(min-supp = 30000)
-  
+kdresult_20000.txt:fqterm_20000.txt used  
+kdresult_30000.txt:fqterm_30000.txt used  
+cqg_20000.txt:kdresult_20000.txt used  
+cqg_30000.txt:kdresult_30000.txt used  
+
 ---------------------------------------------------
 **In Data**  
 NTCIR.txt  
