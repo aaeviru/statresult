@@ -18,6 +18,7 @@ kdresult_20000.txt:fqterm_20000.txt used
 kdresult_30000.txt:fqterm_30000.txt used  
 cqg_20000.txt:kdresult_20000.txt used  
 cqg_30000.txt:kdresult_30000.txt used  
+query-topic.txt:sigma.npy,vt.npy used  
 
 ---------------------------------------------------
 **In Data**  
@@ -33,4 +34,6 @@ fqterm.txt:
 **In Classinfo**  
 matrix.txt:wordslist_dsw.txt used  
 matrix.npy: trans from matrix.txt  
+sigma.npy,.txt:lsa-sigma,matrix.npy used  
+vt.npy,.txt:lsa-vt,matrix.npy use  
 \*/\*.dsw.dat:stopword4.txt wordslist_dsw.txt used
